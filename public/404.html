@@ -3,10 +3,9 @@
   <head>
     <meta charset="utf-8" />
     <script>
-      // GitHub Pages SPA redirect
-      var path = window.location.pathname.replace('/LightningFI', '');
-      window.location.replace('/LightningFI/?p=' + encodeURIComponent(path));
+      sessionStorage.redirect = location.href;
     </script>
+    <meta http-equiv="refresh" content="0;URL='/LightningFI/'" />
   </head>
   <body></body>
 </html>
