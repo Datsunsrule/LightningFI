@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import { HashRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { Login } from './screens/Login';
 import { Dashboard } from './screens/Dashboard';
 import { NewFI } from './screens/NewFI';
@@ -7,7 +7,7 @@ import { Notifications } from './screens/Notifications';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Navigate to="/login" replace />} />
         <Route path="/login" element={<Login />} />
@@ -16,7 +16,7 @@ function App() {
         <Route path="/fi/:fiNumber" element={<ViewFI />} />
         <Route path="/notifications" element={<Notifications />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
