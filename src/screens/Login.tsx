@@ -19,7 +19,7 @@ export const Login = () => {
       {/* Background */}
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: `url('/LightningFI/assets/bronco-bg.jpg')` }}
+        style={{ backgroundImage: `url('${import.meta.env.BASE_URL}assets/bronco-bg.jpg')` }}
       />
       {/* Dark overlay */}
       <div className="absolute inset-0 bg-black/70" />
