@@ -1,8 +1,8 @@
 import type { Deputy, FI, RecognitionEvent } from './types';
 
 export const mockDeputy: Deputy = {
-  name: 'Bradford',
-  firstName: 'Chase',
+  name: 'Deputy',
+  firstName: 'Demo',
   badge: '5421',
   rank: 'Corporal',
   unit: 'San Clemente Patrol',
