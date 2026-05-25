@@ -174,7 +174,7 @@ export const Dashboard = () => {
       {/* Bronco background */}
       <div
         className="fixed inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: `url('/assets/bronco-bg.jpg')` }}
+        style={{ backgroundImage: `url('/LightningFI/assets/bronco-bg.jpg')` }}
       />
       {/* Dark overlay — slightly lighter than login so photo reads through */}
       <div className="fixed inset-0 bg-black/60" />
