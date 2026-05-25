@@ -5,7 +5,7 @@ export const mockDeputy: Deputy = {
   firstName: 'Demo',
   badge: '5421',
   rank: 'Corporal',
-  unit: 'San Clemente Patrol',
+  unit: 'Patrol',
   shift: 'Watch 2',
 };
 

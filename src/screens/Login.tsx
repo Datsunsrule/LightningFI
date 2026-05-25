@@ -86,7 +86,7 @@ export const Login = () => {
 
           {/* Footer text */}
           <p className="text-center text-white/20 text-[11px] mt-6 leading-relaxed">
-            San Diego County Sheriff's Department&nbsp;·&nbsp;Field Interview Module
+            Field Interview Module
           </p>
         </div>
       </div>
