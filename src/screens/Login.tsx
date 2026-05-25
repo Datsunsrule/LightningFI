@@ -26,11 +26,6 @@ export const Login = () => {
 
       {/* Content */}
       <div className="relative z-10 w-full max-w-sm mx-4">
-        {/* Eyebrow */}
-        <p className="text-center text-[10px] tracking-[0.3em] uppercase text-white/40 mb-6">
-          Your FIs Matter
-        </p>
-
         {/* Glass card */}
         <div className="glass-card p-8">
           {/* Wordmark */}
