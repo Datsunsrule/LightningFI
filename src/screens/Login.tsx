@@ -84,6 +84,18 @@ export const Login = () => {
             Field Interview Module
           </p>
         </div>
+
+        {/* Vultos branding */}
+        <div className="flex flex-col items-center gap-2 mt-6">
+          <img
+            src={`${import.meta.env.BASE_URL}assets/vultos-logo.jpg`}
+            alt="Vultos Technical Solutions"
+            className="h-8 w-auto opacity-70"
+          />
+          <p className="text-white/30 text-[10px] tracking-wide text-center">
+            &copy; 2026 Vultos Technical Solutions LLC&nbsp;&middot;&nbsp;All Rights Reserved
+          </p>
+        </div>
       </div>
     </div>
   );
